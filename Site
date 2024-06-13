@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8a2be2;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #7a1be2;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projeto {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #6a0dad;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .links-sociais a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .links-sociais a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Pessoal</h1>
+        <p>Bem-vindo ao meu site pessoal!</p>
+    </header>
+    <nav>
+        <a href="#trabalho">Trabalho</a>
+        <a href="#projetos">Projetos</a>
+    </nav>
+    <section id="trabalho">
+        <div class="container">
+            <h2>Trabalho</h2>
+            <p>Aqui você pode descrever sua carreira e experiência profissional. Adicione detalhes sobre suas responsabilidades, realizações e habilidades adquiridas ao longo do tempo.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Imagem relacionada ao trabalho">
+        </div>
+    </section>
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1. Explique os objetivos, o processo e os resultados alcançados.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Imagem do projeto 1">
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2. Explique os objetivos, o processo e os resultados alcançados.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Imagem do projeto 2">
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </div>
+    </section>
+    <footer>
+        <div class="links-sociais">
+            <a href="https://youtu.be/MTQ8q19eaxw" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/p/C7Uz7oPOcye/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
